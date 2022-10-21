@@ -6,7 +6,7 @@ To reproduce the experiments, please firstly download some files:
 - OPIEC official sample (`OPIEC-Clean-example.avro`): http://data.dws.informatik.uni-mannheim.de/opiec/OPIEC-Clean-example.avro , put it under `./data/`
 
 You may also need to configure an envirenment:
-- run `conda create --name my_first_env python=3.7` to create a new environment
+- run `conda create --name readoie python=3.7` to create a new environment
 - install all the packages using `pip install -r requirements.txt`
 - install spacy models using `python -m spacy download en_core_web_sm` and `python -m spacy download en_core_web_trs`
 
