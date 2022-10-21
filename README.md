@@ -5,7 +5,7 @@ To reproduce the experiments, please firstly download some files:
 - BERT initial weight (`pytorch_model.bin`): https://huggingface.co/bert-base-uncased/resolve/main/pytorch_model.bin, put it under `./bert-base-uncased/`. Note that `vocab.txt` is modified, so please do not overwrite it with original one.
 - OPIEC official sample (`OPIEC-Clean-example.avro`): http://data.dws.informatik.uni-mannheim.de/opiec/OPIEC-Clean-example.avro , put it under `./data/`
 
-You may also need to configure an envirenment:
+You may also need to configure an environment:
 - run `conda create --name readoie python=3.7` to create a new environment
 - install all the packages using `pip install -r requirements.txt`
 - install spacy models using `python -m spacy download en_core_web_sm` and `python -m spacy download en_core_web_trs`
