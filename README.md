@@ -8,7 +8,7 @@ To reproduce the experiments, please firstly download some files:
 You may also need to configure an environment:
 - run `conda create --name readoie python=3.7` to create a new environment
 - install all the packages using `pip install -r requirements.txt`
-- install spacy models using `python -m spacy download en_core_web_sm` and `python -m spacy download en_core_web_trs`
+- install spacy models using `python -m spacy download en_core_web_sm` and `python -m spacy download en_core_web_trf`
 
 After that, prepare the training data:
 - run `python preprocess1.py` to prepare data for intensive extrating module
